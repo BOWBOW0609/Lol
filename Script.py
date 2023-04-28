@@ -14,15 +14,13 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://urlshorten.in')
-    START_TXT = environ.get("START_TXT", "<b>Hello ... {} 👋 </b>\n <b>✯ my name is {bot} </b>\n <b>✯ i can provide movies,series and lot more </b>\n 
+    START_TXT = environ.get("START_TXT", "<b>Hello ... {} 👋 </b>\n <b>✯ my name is {bot} </b>\n <b>✯ i can provide movies,series and lot more </b> \n <b>✯ don't waste your time looking to add me to your group , i'm only for @Mafia_Links </b>\n <b>✯ Team - @MafiaBots </b>")
 
 
 
 
 
-<b>✯ don't waste your time looking to add me to your group , i'm only for @Mafia_Links </b>\n
 
-<b>✯ team - @MafiaBots </b>")
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}</b>
